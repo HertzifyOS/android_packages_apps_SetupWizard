@@ -39,11 +39,11 @@ val resolveProductRes by
 tasks.named("preBuild") { dependsOn(resolveProductRes) }
 
 android {
-    namespace = "org.lineageos.setupwizard"
+    namespace = "com.hertzify.setupwizard"
     compileSdk { version = release(37) }
 
     defaultConfig {
-        applicationId = "org.lineageos.setupwizard"
+        applicationId = "com.hertzify.setupwizard"
         minSdk = 31
         targetSdk = 35
         versionCode = 20200

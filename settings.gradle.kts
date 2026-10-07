@@ -27,6 +27,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LineageSetupWizard"
+rootProject.name = "HertzifySetupWizard"
 
 include(":app")
